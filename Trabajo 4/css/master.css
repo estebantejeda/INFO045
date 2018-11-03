@@ -1,0 +1,50 @@
+html{
+    background-image: url(../imagenes/fondo.jpg);
+}
+
+header{
+    text-align: center;
+    color: white
+}
+
+figure{
+    text-align: center;
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 25px;
+    box-shadow: blue 5px 5px 50px;
+    min-width: 500px;
+}
+
+footer{
+    width: 460px;
+    margin-left: 450px;
+}
+
+#margen{
+    margin-left: 110px;
+}
+
+p{
+    margin-top: 30%;
+}
+
+.normal{
+    margin-top: 0%;
+}
+
+#pregunta{
+    float: left;
+    color: white;
+    padding: 3px;
+    height: 200px;
+    width: 350px;
+}
+
+#respuestas{
+    float: right;
+    color: white;
+    padding: 3px;
+    height: 200px;
+    width: 350px;
+}

@@ -1,0 +1,21 @@
+html{
+    background-image: url(../imagenes/fondo.png);
+}
+
+td{
+    border: 5px solid;
+    border-color: green;
+    border-radius: 5px;
+}
+
+img:hover:not([alt="Banner"]){
+    height: 350px;
+    width: 350px;
+    border: 5px solid #000;
+    border-radius: 50px;
+    z-index: 2;
+}
+
+caption{
+    font-size: 40px;
+}

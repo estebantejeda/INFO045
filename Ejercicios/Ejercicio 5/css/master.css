@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+
+body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure img{
+    height: 140.63px;
+    width: 250px;
+    border-radius: 30px;
+}

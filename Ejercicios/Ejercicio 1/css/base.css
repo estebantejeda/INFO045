@@ -1,0 +1,29 @@
+body{
+    background-color: #B71C1C;
+}
+
+li{
+    background-color: red;
+    display: inline;
+}
+
+aside{
+    background: blue;
+    float: left;
+    height: 720px;
+}
+
+section{
+    background-color: yellow;
+    margin-left: 180px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+#tituloPrincipal{
+    background-color: #FFEBEE;
+}
+
+#piePrincipal{
+    clear: both;
+}

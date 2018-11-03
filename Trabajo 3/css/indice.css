@@ -1,0 +1,13 @@
+body {
+    background-image: url(../imagenes/indice.png);
+    background-position:50% 50%;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+}
+
+a{
+    color: white;
+}

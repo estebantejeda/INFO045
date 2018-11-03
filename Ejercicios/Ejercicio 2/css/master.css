@@ -1,0 +1,30 @@
+p[name="elementos"]{
+    color: red;
+}
+
+header{
+    width: 500px;
+    background-color: grey;
+    text-align: center;
+    margin: 15px auto;
+    padding: 5px;
+    border: 4px solid blue;
+    border-radius: 25px;
+    box-shadow: black 10px 2px 5px;
+}
+
+header:hover{
+    width: 800px;
+    background-color: blue;
+}
+
+#relleno{
+    font-family: 'aya';
+    font-size: 30px;
+    text-shadow: green 8px 8px 5px;
+}
+
+@font-face{
+    font-family: 'aya';
+    src: url('../fonts/A_Yummy_Apology.ttf');
+}

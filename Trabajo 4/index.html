@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <title> Preguntas de Mass Effect </title>
+        <link rel="stylesheet" href="css/master.css" />
+        <script src="js/cambiofoto.js"></script>
+        <script src="js/creacionpreguntas.js"></script>
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1> Preguntas de Mass Effect </h1>
+
+        </header>
+
+        <section>
+
+            <article>
+
+                <figure>
+
+                    <figcaption id="pregunta">
+                        <br />
+                        <p class="normal"> A continuación deberás contestar las siguientes preguntas sobre el juego Mass Effect. </p>
+                        <p class="normal"> Cada pregunta correcta te dará puntaje dependiendo de la dificultad. Cada pregunta incorrecta te descontará puntos dependiendo de la dificultad. </p>
+                        <p class="normal"> Las preguntas omitidas no descuentan puntaje. El puntaje que obtendrás determinará tu nivel en el juego. Suerte. </p>
+                    </figcaption>
+
+                    <img src="imagenes/me-1.jpg" height="250" width="444,4" id="principal" />
+
+                    <figcaption id="respuestas">
+                        <br />
+                        <p class="normal"> En este cuadro de texto verás las preguntas. </p>
+                        <p class="normal"> El cuestionario consta de 16 preguntas con 3 alternativas cada una </p>
+                        <br />
+                        <br />
+                        <p class="normal"> Presiona el botón "Siguiente" para continuar. </p>
+                    </figcaption>
+
+                </figure>
+
+                <footer>
+
+                    <table id="margen">
+                        <tr>
+                            <td> <button onclick="retrocedeImagen()"> Anterior </button> </td>
+                            <td> <button onclick="avanzaImagen()"> Siguiente </button> </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td> <button onclick="entregaPuntaje()" > Resultado del Test </button> </td>
+                            <td> <button onclick="resetPreguntas()"> Resetear </button> </td>
+                            <td> <button onclick="entregaRespuesta()"> Respuestas Correctas </button> </td>
+                        </tr>
+                    </table>
+
+                </footer>
+
+            </article>
+
+        </section>
+
+    </body>
+
+</html>

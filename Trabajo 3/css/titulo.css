@@ -1,0 +1,9 @@
+body {
+    background-image: url(../imagenes/titulo.jpg);
+}
+
+p {
+    color: yellow;
+    font-size: 80px;
+    text-align: center;
+}

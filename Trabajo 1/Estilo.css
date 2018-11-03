@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#000000;
+}
+
+figure img{
+	opacity:0.5;
+	margin-left:100px;
+	margin-top:45px;
+	margin-right:45px;
+	margin-bottom:25px;
+	width:900px;
+	height:220px;	
+}
+
+figure{
+	background-color:#000000;
+}
+
+figcaption{
+	font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style:italic;
+	font-weight:bold;
+	font-size:30px;
+	text-align: center;
+	color:#B85F61
+}
+
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #2775BD;
+}
+
+li{
+	float:left;
+	align-content:center;
+}
+
+nav li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+marquee{
+	margin:40px;
+	width:400px;
+	height:400px;
+	direction:up;	
+}
+
+h2{
+	font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style:italic;
+}

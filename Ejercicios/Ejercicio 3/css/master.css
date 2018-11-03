@@ -1,0 +1,62 @@
+html{
+    background-image: url(../imagenes/fondo.jpg);
+}
+
+header{
+    margin-top: 20px;
+}
+
+h1{
+    background-color: red;
+    text-align: center;
+    margin: 5px auto;
+    border-radius: 20px;
+    width: 40%;
+    min-width: 400px;
+    padding: 5px;
+    box-shadow: black 5px 5px 10px;
+    text-shadow: black 1px 1px 2px;
+}
+
+h2{
+    text-align: center;
+}
+
+section{
+    width: 90%;
+    border-top: 3px dashed black;
+    margin: auto;
+    padding-top: 15px;
+}
+
+figure{
+    margin-left: 7%;
+    float: left;
+}
+
+figure img{
+    height: 250px;
+    width: 444px;
+    padding: 5px;
+    background-color: red;
+    border-radius: 30px;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+footer{
+    clear: both;
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+small, time{
+    color: red;
+    font-weight: bold
+}
